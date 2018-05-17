@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-maze {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/*
+для генерации лабиринта
+
+#maze
+{
+	border-style: solid;
+}
+.block
+{
+	float: left;
+	height: 10px;
+	width: 10px;
+}
+.wall
+{
+	background-color: #000;
+}
+.me
+{
+  position: relative;
+}
+.me:after
+{
+  background-color: #23afee;
+  border-radius: 100%;
+  content: '';
+  height: 10px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+.finish
+{
+  background-color: #f31d1d;
+}
+#complete
+{
+  display: none;
+  height: 360px;
+  left: 20%;
+  position: absolute;
+  right: 20%;
+  top: 50px;
+  width: 640px;
+  z-index: 1000;
+}
+#complete img
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+*/
